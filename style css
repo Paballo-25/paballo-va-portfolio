@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Quicksand:wght@500&display=swap');
+
+body {
+    background-color: #f5e1da; /* Soft boho cream */
+    color: #5a3e36; /* Warm brown */
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color: #a67c68; /* Soft brown */
+}
+
+.subheading {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #7a5b52;
+}
+
+.contact-form {
+    background: #fff5ec;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #9c6d5c;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d8b8a8;
+    border-radius: 5px;
+    background-color: #fffaf4;
+}
+
+button {
+    margin-top: 15px;
+    background: #9c6d5c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #7a5b52;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #5a3e36;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #a67c68;
+}
